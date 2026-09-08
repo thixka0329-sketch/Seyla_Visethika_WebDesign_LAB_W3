@@ -58,7 +58,7 @@ body {
     grid-row: 2;
 }
 
-/* e: spans columns 2 and 3, row 3 */
+
 .item-e {
     grid-column: 2 / 4;
     grid-row: 3;
