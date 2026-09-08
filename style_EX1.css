@@ -64,7 +64,7 @@ body {
     grid-row: 3;
 }
 
-/* f: spans all 3 columns */
+
 .item-f {
     grid-column: 1 / 4;
     grid-row: 4;
