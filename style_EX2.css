@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(254, 155, 226);
+}
+
+
+.page {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+
+header {
+    height: 100px;
+    flex-shrink: 0;
+
+    background-color: #ebf3f9;
+
+    padding: 5px;
+}
+
+
+main {
+    flex-grow: 1;
+
+    background-color: #ebf3f9;
+
+    padding: 5px;
+}
+
+
+footer {
+    height: 100px;
+    flex-shrink: 0;
+
+    background-color: #ebf3f9;
+
+    padding: 5px;
+}
